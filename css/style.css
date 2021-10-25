@@ -270,7 +270,7 @@ img {
 .intro__img-wrapper::before {
     content: "";
     position: absolute;
-    top: 330px;
+    top: 325px;
     left: 95px;
     width: 80px;
     height: 65px;
@@ -287,6 +287,11 @@ img {
         width: 80px;
         height: 96px;
     }
+}
+
+
+.intro__img-baloon {
+    z-index: 20;
 }
 
 .intro__img-wrapper::after {
