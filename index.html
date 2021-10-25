@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>C днем рождения!!!</title>
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="page-body">
+
+
+
+    <main class="page-main">
+
+        <section class="intro">
+            <div class="intro__wrapper container">
+                <div class="intro__content">
+                    <h1 class="visually-hidden">Саша, с днём рождения!!!</h1>
+                    <h2 class="intro__title">Саша, с днём рождения!!!🎂🥳❤️</h2>
+
+                    <div class="intro__price-wrapper">
+
+                        <audio id="audiotag1" src="./audio/happy-birthday.mp3" preload="auto"></audio>
+                        <a href="javascript:play_single_sound();" class="button intro__button-order">Жмякни</a>
+                        <script type="text/javascript">
+                            function play_single_sound() {
+                                document.getElementById('audiotag1').play();
+                            }
+                        </script>
+
+                    </div>
+                </div>
+                <div class="intro__img-container ramka-1">
+                    <div class="intro__img-wrapper">
+                        <div class="intro__img-overflow">
+                            <img class="intro__img-baloon" src="img/hot-air-baloon-1.png" alt="" width="347" height="557">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="wish">
+            <div class="container">
+                <h2 class="wish__title">Желаю тебе</h2>
+                <div class="wish__wrapper">
+                    <div class="wish__item">
+                        <img class="" src="./img/happiness.gif" alt="" width="370" height="">
+                        <p>Огромного счастья</p>
+                    </div>
+                    <div class="wish-wrapper__item">
+                        <img class="" src="./img/love.gif" alt="" width="370" height="">
+                        <p>Большой и чистой любви</p>
+                    </div>
+                    <div class="wish-wrapper__item">
+                        <img class="" src="./img/vacation.gif" alt="" width="370" height="">
+                        <p>Путешествий и отдыха</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="love">
+
+            <h2 class="wish__title"> Люблю тебя и очень рада, что мы встретились!</h2>
+            <img class="" src="./img/puglie-pug.gif" alt="" width="370" height="">
+        </section>
+
+    </main>
+
+
+    <script src="js/script.js"></script>
+    <script type="module" src="js/index.js"></script>
+
+</body>
+
+</html>
