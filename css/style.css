@@ -270,10 +270,10 @@ img {
 .intro__img-wrapper::before {
     content: "";
     position: absolute;
-    top: 325px;
+    top: 320px;
     left: 95px;
     width: 80px;
-    height: 65px;
+    height: 96px;
     background-image: url("../img/pug.png");
     background-repeat: no-repeat;
     z-index: -10;
